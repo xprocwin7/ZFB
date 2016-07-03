@@ -30,6 +30,7 @@
 		D8CEAE901D28E0DC00B108AB /* XPTreasureTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8CEAE8F1D28E0DC00B108AB /* XPTreasureTableViewController.m */; };
 		D8CEAE931D28E0F800B108AB /* XPTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8CEAE921D28E0F800B108AB /* XPTabBarViewController.m */; };
 		D8CEAE961D28E74200B108AB /* XPNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8CEAE951D28E74200B108AB /* XPNavigationController.m */; };
+		D8CEAE991D28ECA800B108AB /* navigationbar7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D8CEAE981D28ECA800B108AB /* navigationbar7@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +65,7 @@
 		D8CEAE921D28E0F800B108AB /* XPTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPTabBarViewController.m; sourceTree = "<group>"; };
 		D8CEAE941D28E74200B108AB /* XPNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPNavigationController.h; sourceTree = "<group>"; };
 		D8CEAE951D28E74200B108AB /* XPNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPNavigationController.m; sourceTree = "<group>"; };
+		D8CEAE981D28ECA800B108AB /* navigationbar7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navigationbar7@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -306,6 +308,7 @@
 		D8CEAE5E1D28DE5600B108AB /* images */ = {
 			isa = PBXGroup;
 			children = (
+				D8CEAE971D28ECA800B108AB /* navigation */,
 				D8CEAE6A1D28DFAF00B108AB /* app */,
 				D8CEAE6E1D28DFAF00B108AB /* launch */,
 				D8CEAE701D28DFAF00B108AB /* tabBar */,
@@ -344,6 +347,14 @@
 				D8CEAE781D28DFAF00B108AB /* TabBar_PublicService_Sel@2x.png */,
 			);
 			path = tabBar;
+			sourceTree = "<group>";
+		};
+		D8CEAE971D28ECA800B108AB /* navigation */ = {
+			isa = PBXGroup;
+			children = (
+				D8CEAE981D28ECA800B108AB /* navigationbar7@2x.png */,
+			);
+			path = navigation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -418,6 +429,7 @@
 				D8CEAE7B1D28DFAF00B108AB /* AppIcon60x60@2x.png in Resources */,
 				D8CEAE681D28DEE300B108AB /* Info.plist in Resources */,
 				D8CEAE7D1D28DFAF00B108AB /* TabBar_Assets@2x.png in Resources */,
+				D8CEAE991D28ECA800B108AB /* navigationbar7@2x.png in Resources */,
 				D8CEAE7F1D28DFAF00B108AB /* TabBar_Discovery@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

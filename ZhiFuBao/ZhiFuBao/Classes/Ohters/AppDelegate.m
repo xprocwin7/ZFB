@@ -8,7 +8,6 @@
 
 #import "AppDelegate.h"
 #import "XPTabBarViewController.h"
-#import "XPNavigationController.h"
 
 @interface AppDelegate ()
 
@@ -20,7 +19,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
    
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    self.window.rootViewController = [[XPNavigationController alloc]initWithRootViewController:[[XPTabBarViewController alloc] init]];
+    self.window.rootViewController = [[XPTabBarViewController alloc] init];
     [self.window makeKeyAndVisible];
 
     return YES;

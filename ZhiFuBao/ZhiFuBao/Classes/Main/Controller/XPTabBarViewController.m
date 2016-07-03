@@ -11,6 +11,7 @@
 #import "XPDiscoverTableViewController.h"
 #import "XPServeTableViewController.h"
 #import "XPTreasureTableViewController.h"
+#import "XPNavigationController.h"
 
 @interface XPTabBarViewController ()
 
@@ -52,7 +53,8 @@
     UIImage *originalImage = [selImage imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     vc.tabBarItem.selectedImage = originalImage;
     vc.title = title;
-    [self addChildViewController:vc];
+  //  XPNavigationController *nav = [[XPNavigationController alloc] initWithRootViewController:vc];
+    [self addChildViewController:[[XPNavigationController alloc] initWithRootViewController:vc]];
 }
 
 @end
